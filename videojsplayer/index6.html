@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <!-- Video.js base CSS -->
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+
+    <!-- City -->
+    <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet">
+
+    <!-- Fantasy -->
+    <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
+
+    <!-- Forest -->
+    <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+
+    <!-- Sea -->
+    <link href="https://unpkg.com/@videojs/themes@1/dist/sea/index.css" rel="stylesheet">
+
+
+    <style>
+      .player {
+        margin: 5em auto;
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="player">
+      <h2>Elemental PVR (Sea)</h2>
+      <video
+        id="sea-video"
+        class="video-js vjs-theme-sea"
+        controls
+        preload="auto"
+        poster="https://image.mux.com/FGZHQaIg7cjVNS2dgTrnMYSdCkXohOl3/thumbnail.jpg"
+        data-setup='{ "fluid": true, "liveui": true }'
+      >
+        <source
+          src="https://dxshe3jd9tyky.cloudfront.net/out/v1/4c79bab84c23488ca4ee77b52eee413b/index.m3u8?start=2022-01-05T14:00:00+01:00&end=2022-01-05T15:00:00+01:00"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    <script src="https://vjs.zencdn.net/7.17.0/video.js"></script>
+  </body>
+</html>
