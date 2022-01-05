@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sync>
+    <!--CloudBox Presenter by ungap AB. http://www.ungap.com-->
+    <!--UTC TimeStamps-->
+    <Version>feb-2015</Version>
+    <Timeline>
+        <MediaClip>
+            <TimeStamp>2021-11-16 07:50:43.8272</TimeStamp>
+            <Duration>00:00:00</Duration>
+            <ElementID>state</ElementID>
+            <MimeType>webcast/state</MimeType>
+            <Payload>IN</Payload>
+            <GUID>e8501ff4-4224-4668-8aa5-8a1921b3cf95</GUID>
+        </MediaClip>
+        <MediaClip>
+            <TimeStamp>2021-11-16 07:50:43.911</TimeStamp>
+            <Duration>00:00:00</Duration>
+            <ElementID>poster</ElementID>
+            <MimeType>text/plain</MimeType>
+            <Payload></Payload>
+            <GUID>b5d64824-6986-46ed-999c-925dbb126b41</GUID>
+        </MediaClip>
+        <MediaClip>
+            <TimeStamp>2021-11-16 07:50:44.916</TimeStamp>
+            <Duration>00:00:00</Duration>
+            <ElementID>poster_details</ElementID>
+            <MimeType>text/plain</MimeType>
+            <Payload></Payload>
+            <GUID>7a58a596-76d2-4476-b226-a0c8e24fb9b0</GUID>
+        </MediaClip>
+    </Timeline>
+</Sync>

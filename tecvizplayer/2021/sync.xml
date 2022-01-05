@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sync>
+  <Stream>rtmp://cdn-rtmp.ungap.com/cfx/st/http://cdn-http.ungap.com/tutorials/_template/20140214-100854/playlist.m3u8</Stream>
+  <StreamState>OFF_LINE</StreamState>
+  <LiveStartTime>2020-03-16 14:00:00</LiveStartTime>
+  <Title>Ericsson JOY</Title>
+  <Description>
+  </Description>
+  <Copyright>
+  </Copyright>
+  <ObjectsRoot>
+  </ObjectsRoot>
+  <Modified>2014-02-14 15:06:08</Modified>
+  <WebcastState>LIVE</WebcastState>
+  <Timeline>live.xml</Timeline>
+  <StreamKey>e21dd24ccee8f913181bc6312fd0f2b7f8e8e5bac68afad7deb6d8dcf4a61beb845eb4910d4a8222822ced172f31ece8141b6e3f51023ff2e62734281de112152a9fd2f4d1ad4b8ffd96ddccde94e5e3daade7d6e6e7f5a7eaea</StreamKey>
+  <Podium>
+  </Podium>
+  <MultiFmsStream>rtmp://212.247.187.107/liveevent?1108_Live1=500=320x240&amp;=0=&amp;=0=&amp;</MultiFmsStream>
+  <html5_LiveSource>
+  </html5_LiveSource>
+  <html5_OdmSource>
+  </html5_OdmSource>
+  <html5_PreRoll>
+  </html5_PreRoll>
+  <html5_PostRoll>
+  </html5_PostRoll>
+  <ChannelRoot>http://ericsson.tecviz.net/</ChannelRoot>
+  <OndemandSource>ondemand.smil?mod=635279694267879791</OndemandSource>
+  <dtx>3</dtx>
+  <version>3</version>
+  <LiveSource>live.smil?mod=635279678886358782</LiveSource>
+  <Unit>
+  </Unit>
+  <ExtState>LIVE</ExtState>
+</Sync>

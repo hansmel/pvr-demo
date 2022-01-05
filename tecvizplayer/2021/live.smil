@@ -1,0 +1,15 @@
+<smil>
+  <head>
+    <meta base="" aspect="16/9" />
+  </head>
+  <body>
+    <switch>
+      <video src="https://dxshe3jd9tyky.cloudfront.net/out/v1/4c79bab84c23488ca4ee77b52eee413b/index.m3u8?start=2022-01-05T12:00:00+01:00" system-bitrate="0" type="video/html5" agent-data="Auto" has-timecode="False" live-video-delay="30" start-time="2021-11-22 14:33:58.2874" />
+      <video src="https://dxshe3jd9tyky.cloudfront.net/out/v1/4c79bab84c23488ca4ee77b52eee413b/index_1.m3u8?start=2022-01-05T12:00:00+01:00" system-bitrate="0" type="video/html5" agent-data="1080p" has-timecode="False" live-video-delay="30" start-time="2021-11-22 14:33:58.2877" />
+      <video src="https://dxshe3jd9tyky.cloudfront.net/out/v1/4c79bab84c23488ca4ee77b52eee413b/index_2.m3u8?start=2022-01-05T12:00:00+01:00" system-bitrate="0" type="video/html5" agent-data="720p" has-timecode="False" live-video-delay="30" start-time="2021-11-22 14:33:58.2877" />
+      <video src="hhttps://dxshe3jd9tyky.cloudfront.net/out/v1/4c79bab84c23488ca4ee77b52eee413b/index_3.m3u8?start=2022-01-05T12:00:00+01:00" system-bitrate="0" type="video/html5" agent-data="540p" has-timecode="False" live-video-delay="30" start-time="2021-11-22 14:33:58.2877" />
+      <video src="https://dxshe3jd9tyky.cloudfront.net/out/v1/4c79bab84c23488ca4ee77b52eee413b/index_4.m3u8?start=2022-01-05T12:00:00+01:00" system-bitrate="0" type="video/html5" agent-data="360p" has-timecode="False" live-video-delay="30" start-time="2021-11-22 14:33:58.2877" />
+      <video src="videojs.html" system-bitrate="0" type="iframe" agent-data="" has-timecode="False" live-video-delay="30" start-time="2021-11-22 14:33:58.2883" />
+    </switch>
+  </body>
+</smil>

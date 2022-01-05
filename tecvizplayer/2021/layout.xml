@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <!-- player background picture -->
+  <player_bg />
+  <!-- player background picture transparency -->
+  <bg_alpha>100</bg_alpha>
+  <!-- before_webcast_text is the text displayed before the LIVE webcast -->
+  <before_webcast_text>The presentation starts 12.00 PM</before_webcast_text>
+  <!-- after_webcast_text is the text displayed after the LIVE webcast -->
+  <after_webcast_text>Thanks for watching</after_webcast_text>
+  <!-- is_audiocast is used to show an image instead of the video. Set to true or false -->
+  <is_audiocast>false</is_audiocast>
+  <!-- video_poster is the default video poster image. It is also used as audiocast image -->
+  <video_poster>video_poster.png</video_poster>
+  <!-- slide_poster is the default slide image -->
+  <slide_poster>
+  </slide_poster>
+  <layout_autopilot>false</layout_autopilot>
+  <show_shadow>false</show_shadow>
+  <lock_layout>false</lock_layout>
+  <video_height>0</video_height>
+  <video_width>45%</video_width>
+  <slide_position>undefined</slide_position>
+  <layout>cam_only</layout>
+  <autostart>
+  </autostart>
+  <fullscreen_bg_color>#000000</fullscreen_bg_color>
+  <theme_bg_color>#acacac</theme_bg_color>
+  <theme_color>#acacac</theme_color>
+  <theme bg-image="player_background.jpg" use-shadows="true" top-margin="32" margin="5" title-font-size="0" video-slide-gap="5" fullscreen-bg-color="#FFB5B5B5" text-color="#FF000000" panel-color="#96000000" title-text-color="#FF000000" title-left-margin="10" title-video-gap="0" total-scale="100" />
+  <keep_captions_on_video>false</keep_captions_on_video>
+  <hide_description_during_live>false</hide_description_during_live>
+  <show_speakers_in_toc>false</show_speakers_in_toc>
+  <slide_browser_layout>horizontal,</slide_browser_layout>
+  <Unit>A0CEC80ADDEE</Unit>
+  <before_panel_image>
+  </before_panel_image>
+  <use_before_panel>false</use_before_panel>
+  <before_webcast_details>
+  </before_webcast_details>
+  <slides_video_width>50%</slides_video_width>
+  <after_webcast_details>
+  </after_webcast_details>
+  <chapters_video_width>60%</chapters_video_width>
+</layout>

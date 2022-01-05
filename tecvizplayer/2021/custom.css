@@ -1,0 +1,85 @@
+﻿@font-face {
+    font-family: Ericsson Hilda;
+    src: url(../../../fonts/ericsson-hilda-regular.eot);
+    src: url(../../fonts/ericsson-hilda-regular.eot?#iefix) format('embedded-opentype'), url(../../fonts/ericsson-hilda-regular.woff) format('woff'), url(../../fonts/ericsson-hilda-regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+.cloudbox-player {
+    color: #181818;
+    font-family: "Ericsson Hilda", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cloudbox-player #before-panel-div {
+    -webkit-box-shadow: 10px 10px 29px 1px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 29px 1px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 29px 1px rgba(0, 0, 0, 0.65);
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+/* .before-text {
+    color: black;
+} */
+
+#before-image {
+    text-align: initial;
+}
+
+#before-panel {
+    max-width: 600px;
+}
+
+.attachment-icon {
+    visibility: collapse;
+}
+
+.fullscreen-icon {
+    visibility: initial;
+}
+
+#captions {
+    display: none !important;
+}
+
+.container {
+    width: 100%;
+}
+
+.landing-page {
+    /* background: url('../5GT-bg-21.jpg'); */
+    background-color: #05001e;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.landing-page #top-logo {
+    background-color: initial;
+}
+
+.landing-page #top-right-logo {
+    background-color: initial;
+    color: white;
+    text-transform: none;
+}
+
+
+/* CSS for the player */
+
+
+/* .cloudbox-player {
+    color: white;
+} */
+
+/* .cloudbox-player #uiBitratesPanel {
+    display: none !important;
+    opacity: 0 !important;
+} */
+
+.cloudbox-player .fullscreen-icon {
+    display: none !important;
+}

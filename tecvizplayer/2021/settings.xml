@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <!-- agenda is a file containing the agenda for the presentation -->
+  <agenda>agenda.xml</agenda>
+  <!-- sync is the file containing info about the current webcast -->
+  <sync>sync.xml</sync>
+  <!-- modified is the file containing the last modified time -->
+  <modified>modified.txt</modified>
+  <!-- layout is the file containing layout info for the player -->
+  <layout>layout.xml</layout>
+  <!-- ADVANCED SETTINGS BELOW -->
+  <!-- Video Buffer times are expressed in seconds. Default: live_buffer_time=10, odm_buffer_time=2 -->
+  <live_buffer_time>10</live_buffer_time>
+  <odm_buffer_time>2</odm_buffer_time>
+  <!-- Live and pending polling intervals are expressed in seconds. Default: live_poll_interval=5, pending_poll_interval=15  -->
+  <live_poll_interval>5</live_poll_interval>
+  <pending_poll_interval>11</pending_poll_interval>
+  <!-- Indicates which sync method shall be used. 1=FlashSync method (default), 2=CloudBox method -->
+  <sync_version>1</sync_version>
+  <!-- Add this extension to the timeline if we want to call a server side script (PHP or other). Without . -->
+  <timeline_extension>
+  </timeline_extension>
+  <seek_compensation>15</seek_compensation>
+  <ignore_timecode>false</ignore_timecode>
+  <qna_rules>
+  </qna_rules>
+  <qna_pin>364290</qna_pin>
+  <presentation_rules>
+  </presentation_rules>
+  <presentation_pwd>
+  </presentation_pwd>
+  <ga_id>
+  </ga_id>
+  <disable_browsing_until_first_slide>false</disable_browsing_until_first_slide>
+  <enable_sharing>false</enable_sharing>
+  <pending_panel_rules>
+  </pending_panel_rules>
+  <browsing_rules>
+  </browsing_rules>
+  <sharing_rules>
+  </sharing_rules>
+  <live_on_tape>false</live_on_tape>
+  <version>3</version>
+  <Unit>
+  </Unit>
+  <browsing_rules2>
+  </browsing_rules2>
+  <use_cover_panel>false</use_cover_panel>
+</settings>

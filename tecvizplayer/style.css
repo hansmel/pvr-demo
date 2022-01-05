@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    background-image: url('joy-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ericsson Hilda', Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 16px;
+}
+
+#ie_warning {
+    /* display: none; */
+    color: whitesmoke;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#wrapper {
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding: 40px;
+}
+
+#player {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#player_iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#logo_panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#chat {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat_header {
+    background-color: #242424;
+    color: white;
+    padding: 10px;
+}
+
+#vertical_spacer {
+    width: 40px;
+}
+
+#logo {
+    width: 280px;
+    height: 43px;
+    background-image: url('joy-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: inline-flex;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.gray_btn {
+    background-color: #616161;
+    cursor: default;
+}
+
+.blue_btn {
+    background-color: #0082F0;
+}
+
+#user_dlg_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#user_dlg {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    min-height: 380px;
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#user_dlg div {
+    padding: 10px;
+}
+
+#user_dlg input {
+    padding: 10px;
+    font-family: 'Ericsson Hilda';
+}
+
+#dlg_title {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#message {
+    padding: 5px;
+}
+
+.red {
+    background-color: darkred;
+}
+
+#video_qualities {
+    background-color: #242424;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    display: none;
+    left: 0;
+    bottom: 40px;
+}
+
+#video_qualities li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 4px 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+#video_qualities li:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#video_qualities li:first-child {
+    border-top: 1px solid white;
+}
+
+/* iPad portrait */
+
+@media (orientation: portrait) {
+
+    #wrapper {
+        flex-direction: column;
+    }
+
+    #chat {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #player {
+        flex-direction: column-reverse;
+        min-height: calc(100vw * 9 / 16 + 100px);
+        max-height: calc(100vw * 9 / 16 + 100px);
+    }
+
+    #quality_btn {
+        display: none;
+    }
+
+    #support_btn {
+        background-color: #242424;
+    }
+
+    #logo_panel {
+        background-color: rgba(0, 0, 0, 0.659);
+        padding: 10px;
+    }
+}
+
+@media  (max-width:840px) {
+
+    #wrapper {
+        padding: 0;
+    }
+
+    #chat {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #quality_btn {
+        display: none;
+    }
+}
+
+@media  (orientation: landscape) and (max-height:414px) {
+
+    #chat, #vertical_spacer {
+        display: none;
+    }
+
+    #logo_panel {
+        background-color: initial;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #logo {
+        height: 32px;
+    }
+
+    #buttons {
+        display: none;
+    }
+}
+
